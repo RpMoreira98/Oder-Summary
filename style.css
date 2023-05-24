@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family:'Red Hat Display', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+section {
+    width: 450px;
+    height: auto;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 1.5rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header h1 {
+    font-size: 27px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+    line-height: normal;
+    font-family: 'Red Hat Display';
+}
+
+
+.corpo p {
+    font-size: 16px;
+    font-weight: 500;
+    color:  hsl(224, 23%, 55%);
+    margin: 0 40px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.value {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px 24px;
+    width: 100%;
+    gap: 2rem;
+    border-radius: 20px;
+}
+
+.plan {
+    display: flex;
+    gap: 1rem;
+}
+
+.value-two p {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+    font-weight: 700;
+    font-family: 'Red Hat Display';
+}
+
+.value-two p span {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-two {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.pagamento {
+    background-color:hsl(245, 75%, 52%);
+    padding:15px 50px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.267);
+}
+
+.pagamento:hover {
+    background-color: hsl(245, 97%, 65%);
+}
+
+
+.pagamento a {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+}
+
+
+.cancelar a{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+}
+
